@@ -146,6 +146,8 @@ public class AStar : MonoBehaviour
             {
                 tiles[i, j].traversable = true;
                 tiles[i, j].SetColour();
+                startTile.SetColour(Color.magenta);
+                endTile.SetColour(Color.blue);
             }
         }
         
